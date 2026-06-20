@@ -1,0 +1,13 @@
+# Proprietary Ten data — never commit raw records
+Chargeback Records/
+*.zip
+cb/
+
+# Generated outputs (regenerate by running the script)
+output/cleaned_chargebacks.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
